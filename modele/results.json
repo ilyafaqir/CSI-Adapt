@@ -1,0 +1,13 @@
+{
+  "best_val_acc": 0.9911999833583832,
+  "test_mean_acc": 0.9877999830245972,
+  "test_ci95": 0.001639178138045654,
+  "test_min": 0.9399999976158142,
+  "test_q10": 0.9599999785423279,
+  "epochs_done": 38,
+  "best_epoch": 26,
+  "n_way": 5,
+  "n_support": 5,
+  "n_query": 10,
+  "final_temperature": 2.744302988052368
+}
