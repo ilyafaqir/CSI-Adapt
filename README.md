@@ -1,30 +1,30 @@
-# Projet d'analyse d'activités humaines (HAR)
+# Projet d'analyse d'activitï¿½s humaines (HAR)
 
-Ce dépôt contient un projet de reconnaissance d'activités humaines basé sur des données de mouvement et des réseaux de neurones.
+Ce dï¿½pï¿½t contient un projet de reconnaissance d'activitï¿½s humaines basï¿½ sur des donnï¿½es de mouvement et des rï¿½seaux de neurones.
 
-## Structure du dépôt
+## Structure du dï¿½pï¿½t
 
-- `src.py` : script principal ou point d'entrée pour le traitement et les expériences.
-- `requirements.txt` : dépendances Python nécessaires pour exécuter le projet.
+- `src.py` : script principal ou point d'entrï¿½e pour le traitement et les expï¿½riences.
+- `requirements.txt` : dï¿½pendances Python nï¿½cessaires pour exï¿½cuter le projet.
 
-- `figure/` : visualisations ou figures générées par le projet.
-- `modele/` : modèle entraîné et résultats.
-  - `best_li_har_model.pth` : modèle PyTorch sauvegardé.
-  - `results.json` : métriques ou résultats d'évaluation enregistrés.
+- `figure/` : visualisations ou figures gï¿½nï¿½rï¿½es par le projet.
+- `modele/` : modï¿½le entraï¿½nï¿½ et rï¿½sultats.
+  - `best_li_har_model.pth` : modï¿½le PyTorch sauvegardï¿½.
+  - `results.json` : mï¿½triques ou rï¿½sultats d'ï¿½valuation enregistrï¿½s.
 
 - `Notbook/` : notebooks Jupyter d'analyse et de traitement.
-  - `augmentation.ipynb` : exploration de l'augmentation de données.
-  - `modele.ipynb` : développement et analyse du modèle.
-  - `preprocessing.ipynb` : étapes de prétraitement des données.
-  - `visualisation.ipynb` : visualisation des données et des résultats.
+  - `augmentation.ipynb` : exploration de l'augmentation de donnï¿½es.
+  - `modele.ipynb` : dï¿½veloppement et analyse du modï¿½le.
+  - `preprocessing.ipynb` : ï¿½tapes de prï¿½traitement des donnï¿½es.
+  - `visualisation.ipynb` : visualisation des donnï¿½es et des rï¿½sultats.
 
-- `NTU-Fi_HAR/` : jeu de données de test et d'entraînement organisé par type d'activité.
-  - `test_amp/` : données de test amplifiées.
-    - `box/`, `circle/`, `clean/`, `fall/`, `run/`, `walk/` : classes d'activité pour le test.
-  - `train_amp/` : données d'entraînement amplifiées.
-    - mêmes sous-dossiers de classes que pour `test_amp/`.
+- `NTU-Fi_HAR/` : jeu de donnï¿½es de test et d'entraï¿½nement organisï¿½ par type d'activitï¿½.
+  - `test_amp/` : donnï¿½es de test amplifiï¿½es.
+    - `box/`, `circle/`, `clean/`, `fall/`, `run/`, `walk/` : classes d'activitï¿½ pour le test.
+  - `train_amp/` : donnï¿½es d'entraï¿½nement amplifiï¿½es.
+    - mï¿½mes sous-dossiers de classes que pour `test_amp/`.
 
-- `processed_data/` : données prétraitées prêtes à l'utilisation.
+- `processed_data/` : donnï¿½es prï¿½traitï¿½es prï¿½tes ï¿½ l'utilisation.
   - `preprocessed_test.pt`
   - `preprocessed_train_val.pt`
   - `test.pt`
@@ -32,22 +32,24 @@ Ce dépôt contient un projet de reconnaissance d'activités humaines basé sur des 
 
 ## Objectif
 
-Le projet vise à traiter des données d'activités humaines, à entraîner un modèle de classification et à évaluer les performances sur des données de test.
+Le projet vise ï¿½ traiter des donnï¿½es d'activitï¿½s humaines, ï¿½ entraï¿½ner un modï¿½le de classification et ï¿½ ï¿½valuer les performances sur des donnï¿½es de test.
 
 ## Utilisation
 
-1. Installer les dépendances :
+1. Installer les dï¿½pendances :
    ```powershell
    pip install -r requirements.txt
    ```
 
-2. Explorer les notebooks pour comprendre les étapes de traitement, d'augmentation, de modélisation et de visualisation.
+2. Explorer les notebooks pour comprendre les ï¿½tapes de traitement, d'augmentation, de modï¿½lisation et de visualisation.
 
-3. Exécuter `src.py` ou les notebooks pour reproduire l'entraînement et l'évaluation.
+3. Exï¿½cuter `src.py` ou les notebooks pour reproduire l'entraï¿½nement et l'ï¿½valuation.
 
 ## Remarques
 
-- Les données brutes sont stockées dans `NTU-Fi_HAR/`.
-- Les fichiers dans `processed_data/` contiennent des versions prêtes à l'entraînement.
-- Le modèle entraîné se trouve dans `modele/best_li_har_model.pth`.
-- Les notebooks sont utiles pour la recherche et l'expérimentation.
+- Les donnï¿½es brutes sont stockï¿½es dans `NTU-Fi_HAR/`.
+- Les fichiers dans `processed_data/` contiennent des versions prï¿½tes ï¿½ l'entraï¿½nement.
+- Le modï¿½le entraï¿½nï¿½ se trouve dans `modele/best_li_har_model.pth`.
+- Les notebooks sont utiles pour la recherche et l'expï¿½rimentation.
+
+# CSI-Adapt
