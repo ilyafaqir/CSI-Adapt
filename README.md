@@ -69,20 +69,3 @@ Ce projet est un mémoire de **Master WISD (Web Intelligence et Science des Donn
 | **Visualisation** | Matplotlib, OpenCV, PIL |
 | **ML classique** | Scikit-learn |
 
-### Installation
-
-```bash
-# Cloner le dépôt
-git clone https://github.com/<votre-username>/<nom-du-repo>.git
-cd <nom-du-repo>
-
-# Créer un environnement virtuel
-python -m venv venv
-
-# Activer l'environnement
-source venv/bin/activate          # Linux / macOS
-# ou
-venv\Scripts\activate             # Windows
-
-# Installer les dépendances
-pip install -r requirements.txt
